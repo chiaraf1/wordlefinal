@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mi Wordle</title>
+    <script defer src="script.js"></script>
+    
+</head>
+<body>
+    <h1 class="title">Mi Wordle</h1>
+
+    <!-- Tablero 6 filas y 5 columnas -->
+    <div id="tablero" class="matriz">
+        <!-- Seis filas con cinco celdas cada una -->
+        <div class="fila"><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div></div>
+        <div class="fila"><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div></div>
+        <div class="fila"><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div></div>
+        <div class="fila"><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div></div>
+        <div class="fila"><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div></div>
+        <div class="fila"><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div><div class="caja"></div></div>
+    </div>
+
+    <!-- Teclado virtual -->
+    <div id="teclado" class="keyboard">
+        <div class="fila-letras">
+            <button>Q</button><button>W</button><button>E</button><button>R</button><button>T</button><button>Y</button><button>U</button><button>I</button><button>O</button><button>P</button>
+        </div>
+        <div class="fila-letras">
+            <button>A</button><button>S</button><button>D</button><button>F</button><button>G</button><button>H</button><button>J</button><button>K</button><button>L</button>
+        </div>
+        <div class="fila-letras">
+            <button>DEL</button><button>Z</button><button>X</button><button>C</button><button>V</button><button>B</button><button>N</button><button>M</button><button>ENTER</button>
+        </div>
+    </div>
+
+</body>
+</html>
